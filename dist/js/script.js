@@ -10,7 +10,7 @@ window.onscroll = function() {
         toTop.classList.add('flex');
     } else {
         header.classList.remove('navbar-fixed');
-        toTop.classList.remove('felx');
+        toTop.classList.remove('flex');
         toTop.classList.add('hidden');
     }
 };
