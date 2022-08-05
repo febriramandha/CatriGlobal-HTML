@@ -30,6 +30,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- Venobox -->
+    <link rel="stylesheet" href="dist/venobox/venobox.min.css" type="text/css" media="screen" />
 </head>
 <body>
     <!-- Header Start -->
@@ -244,7 +247,9 @@
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/mgs/mgs.png" alt="MGS Textiles" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/mgs/mgs.png">
+                            <img src="dist/img/portfolio/mgs/mgs.png" alt="MGS Textiles" width="w-full">
+                        </a>
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">MGS Textiles</h3>
                     <p class="font-medium text-base text-secondary mb-5">Pembuatan Aplikasi Inventory untuk Gudang MGS Textiles. Aplikasi ini sangat user friendly serta bisa di akses dari manapun dan kapanpun.</p>
@@ -252,7 +257,9 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/sonergy.png" alt="PT. Sonergy Indo Electro" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/sonergy.png">
+                            <img src="dist/img/portfolio/sonergy/sonergy.png" alt="PT. Sonergy Indo Electro" width="w-full">
+                        </a>
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">PT. Sonergy Indo Electro</h3>
                     <p class="font-medium text-base text-secondary mb-5">Pembuatan Aplikasi Inventory dan E-Commerce untuk PT. Sonergy Indo Electro. Aplikasi ini sangat user friendly serta bisa di akses dari manapun dan kapanpun.</p>
@@ -260,7 +267,9 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/xurya/panel-cover2.jpg" alt="Instalasi Panel Surya" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/xurya/panel-cover2.jpg">
+                            <img src="dist/img/portfolio/xurya/panel-cover2.jpg" alt="Instalasi Panel Surya" width="w-full">
+                        </a>
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Instalasi Panel Surya</h3>
                     <p class="font-medium text-base text-secondary mb-5">Instalasi Panel Surya dengan Developer by PT. Xurya Daya Indonesia, Client by PT. Wahana Makmur Sejati (Wahana Honda), dan EPC Contractor by PT. Catri Global Inframedia.</p>
@@ -268,7 +277,9 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/digital-marketing.png" alt="Digital Marketing" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/digital-marketing.png">
+                            <img src="dist/img/portfolio/digital-marketing.png" alt="Digital Marketing" width="w-full">
+                        </a>
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Digital Marketing</h3>
                     <p class="font-medium text-base text-secondary mb-5">Kami juga menyediakan jasa untuk Digital Marketing melalui platform Sosial Media untuk pemasaran Produk.</p>
@@ -450,6 +461,17 @@
         });
     </script>
 
+    <!-- Venobox -->
+    <script type="text/javascript" src="dist/venobox/venobox.min.js"></script>
+    <script>
+        new VenoBox({
+            selector: '.my-image-links',
+            numeration: true,
+            infinigall: true,
+            share: false,
+            spinner: 'rotating-plane'
+        });
+    </script>
     
 </body>
 </html>

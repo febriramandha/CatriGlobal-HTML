@@ -25,6 +25,9 @@
 
     <!-- AOS Animasi -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Venobox -->
+    <link rel="stylesheet" href="dist/venobox/venobox.min.css" type="text/css" media="screen" />
 </head>
 <body>
     <!-- Header Start -->
@@ -118,32 +121,44 @@
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/sonergy.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/sonergy.png">
+                            <img src="dist/img/portfolio/sonergy/sonergy.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/1.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/1.png">
+                            <img src="dist/img/portfolio/sonergy/1.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/2.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/2.png">
+                            <img src="dist/img/portfolio/sonergy/2.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/3.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/3.png">
+                            <img src="dist/img/portfolio/sonergy/3.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/4.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/4.png">
+                            <img src="dist/img/portfolio/sonergy/4.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/sonergy/5.png" alt="Aplikasi Sonergy" width="w-full">
+                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/sonergy/5.png">
+                            <img src="dist/img/portfolio/sonergy/5.png" alt="Aplikasi Sonergy" width="w-full">
+                        </a>
                     </div>
                 </div>
 
@@ -179,6 +194,18 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <!-- Venobox -->
+    <script type="text/javascript" src="dist/venobox/venobox.min.js"></script>
+    <script>
+        new VenoBox({
+            selector: '.my-image-links',
+            numeration: true,
+            infinigall: true,
+            share: false,
+            spinner: 'rotating-plane'
+        });
     </script>
 
 </body>
