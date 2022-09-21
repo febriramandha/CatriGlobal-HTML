@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT Catri Global Inframedia</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="dist/output.css" rel="stylesheet">
 
     <meta content="PT Catri Global Inframedia, Catri Global Inframedia, Catri Global, Catri" name="description">
@@ -135,35 +136,98 @@
             </div>
 
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/mgs/mgs.png">
-                            <img src="dist/img/portfolio/mgs/mgs.png" alt="Aplikasi MGS Textiles" width="w-full">
-                        </a>
-                    </div>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/mgs/1.png">
-                            <img src="dist/img/portfolio/mgs/1.png" alt="Aplikasi MGS Textiles" width="w-full">
-                        </a>
-                    </div>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/mgs/2.png">
-                            <img src="dist/img/portfolio/mgs/2.png" alt="Aplikasi MGS Textiles" width="w-full">
-                        </a>
-                    </div>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <a class="my-image-links" data-gall="gallery01" href="dist/img/portfolio/mgs/3.png">
-                            <img src="dist/img/portfolio/mgs/3.png" alt="Aplikasi MGS Textiles" width="w-full">
-                        </a>
-                    </div>
-                </div>
-
+                <table class="divide-y divide-gray-300 ">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                ID
+                            </th>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                Name
+                            </th>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                Email
+                            </th>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                Created_at
+                            </th>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                Edit
+                            </th>
+                            <th class="px-6 py-2 text-xs text-gray-500">
+                                Delete
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-300">
+                        <tr class="whitespace-nowrap">
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                1
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-900">
+                                    Jon doe
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-500">jhondoe@example.com</div>
+                            </td>
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                2021-1-12
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-blue-600 bg-blue-200 rounded-full">Edit</a>
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-red-400 bg-red-200 rounded-full">Delete</a>
+                            </td>
+                        </tr>
+                        <tr class="whitespace-nowrap">
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                1
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-900">
+                                    Jon doe
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-500">jhondoe@example.com</div>
+                            </td>
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                2021-1-12
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-blue-600 bg-blue-200 rounded-full">Edit</a>
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-red-400 bg-red-200 rounded-full">Delete</a>
+                            </td>
+                        </tr>
+                        <tr class="whitespace-nowrap">
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                1
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-900">
+                                    Jon doe
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="text-sm text-gray-500">jhondoe@example.com</div>
+                            </td>
+                            <td class="px-6 py-4 text-sm text-gray-500">
+                                2021-1-12
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-blue-600 bg-blue-200 rounded-full">Edit</a>
+                            </td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="px-4 py-1 text-sm text-red-400 bg-red-200 rounded-full">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
