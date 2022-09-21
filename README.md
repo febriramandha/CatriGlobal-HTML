@@ -1,8 +1,8 @@
 ---
-
-Catri Global
-
+PT. Catri Global Inframedia
 ---
+
+<img src="dist/img/client/cgi-logo.png">
 
 Website PT Catri Global Inframedia
 
